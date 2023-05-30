@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    cursor: cell;
+
+}
+.oo a{
+    cursor: pointer;
+    margin: auto 5px;
+    color: white;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.navigation{
+
+    font-size: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;   
+    
+}
+
+.imagr{
+    
+    aspect-ratio: 4/3;
+    object-fit: contain;
+}
+
+
+.oo a:hover{
+    transition: all .65s;
+    color: blueviolet;
+}
+
+.container{
+    
+    display: flex;
+    background-image: url(gg.png);
+    background-attachment: fixed;
+    height: 320px;
+    padding: 145px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+
+}
+
+.container p{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+
+.container h1{
+    
+    transition: all .9s;
+    letter-spacing: 5px;
+
+}
+
+.container h1:hover{
+    transform: scale(1.2);
+}
+
+
+.container button{
+
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 8px;
+    font-size: 18px;
+    background-color: aqua;
+    margin: 10px;
+    margin-top: 30px;
+    transition: all .3s;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.gridi:hover{
+    transform: scale(1.2);
+}
+.grids p{
+    font-size: 30px;
+    margin-left: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+   
+}
+
+
+.grids{
+    
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    gap: 80px;
+    
+}
+.pb{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 25px;
+}
+
+.up{
+    cursor: pointer;
+}
+
+.gridi img{
+   
+    transform: translate(60px , -130px);
+    position: relative;
+    width: 270px;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    
+    
+    
+}
+
+.navigation span{
+    height: 10px;
+}
+
+.teste{
+  transform: translate(-190px, 30px);
+
+    text-align: center;
+    margin-top: 300px;
+}
+
+.grids h1{
+
+    text-align: center;
+
+}
+
+
+.gridi{
+    box-shadow: 10px 30px 25px black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8ca0ff;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 50px;
+    width: 300px;
+    height: 400px;
+    transition: all .9s;
+}
+
+.Sob h2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.imagem2{
+    width: 25rem;
+    margin-bottom: 100px;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+
+}
+
+.Sob{
+    display: flex;
+    margin: 30px;
+    font-size: 20px;
+    padding: 20px;
+    text-align:center;
+
+}
+
+.Sob p{
+    letter-spacing: 3px;
+}
+
+
+
+
+@media only screen and (max-width: 650px) {
+ 
+    .oo a{
+        cursor: pointer;
+        margin: auto 5px;
+        color: white;
+        justify-content: space-around;
+        text-decoration: none;
+    }
+    
+    .navigation{
+        font-size: 20px;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        background-color: gray;   
+        
+    }
+    
+    
+    
+    
+
+    .container{
+        
+        display: flex;
+        background-image: url(gg.png);
+        height: 120px;
+        padding: 100px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      
+    
+    }
+    
+    .container p{
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+    
+ 
+    
+    
+    .container button{
+    
+        border: none;
+        border-radius: 8px;
+        box-sizing: border-box;
+        padding: 8px;
+        font-size: 20px;
+        background-color: aqua;
+        margin: 10px;
+        margin-top: 30px;
+      
+    }
+    
+  
+    
+    .Sob h2{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    
+    .Sob{
+        width: 100px;
+        display: flex;
+        letter-spacing: normal;
+        margin: 30px;
+        font-size: 30px;
+        padding: 10px;
+    
+    }
+    
+    
+  }
